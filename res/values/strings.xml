@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, PasswordManagerActivity!</string>
+    <string name="app_name">PasswordManager</string>
+    <string name="Back">&lt;</string>
+    <color name="orangeBackground">#FF8000</color>
+
+</resources>

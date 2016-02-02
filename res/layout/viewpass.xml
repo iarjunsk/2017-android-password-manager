@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableLayout
+            android:id="@+id/maintable"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#3B3B3B"
+            >
+
+            <TableRow
+               
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:weightSum="100"
+                
+               
+                 >
+
+                <TextView 
+                   
+                    android:padding="3dip"
+                    android:background="#716D61"
+                    android:id="@+id/attrib_site"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="25"
+                    android:text="Site"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:padding="3dip"
+                    android:background="#714C24"
+                    android:id="@+id/attrib_username"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="25"
+                    android:text="Username"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:padding="3dip"
+                    android:background="#716D61"
+                    android:id="@+id/attrib_pass"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="25"
+                    android:text="Password"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:padding="3dip"
+                     android:background="#714C24"
+                    android:id="@+id/attrib_additional"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="25"
+                    android:text="Additinal Note"
+                    android:textColor="#fff" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

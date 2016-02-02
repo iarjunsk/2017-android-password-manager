@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:weightSum="100" >
+
+    <TextView
+        android:id="@+id/attrib_site"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="25"
+        android:background="#716D61" />
+
+    <TextView
+        android:id="@+id/attrib_username"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="25"
+        android:background="#714C24" />
+
+    <TextView
+        android:id="@+id/attrib_pass"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="25"
+        android:background="#716D61" />
+
+    <TextView
+        android:id="@+id/attrib_additional"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="25"
+        android:background="#714C24" />
+
+</TableRow>
